@@ -1,0 +1,29 @@
+SYSTEM =Sys
+ENCUT = 520
+NSW = 1000
+ISIF =2
+IBRION = 2
+ISTART = 1
+ICHARG = 1
+ISPIN = 2
+EDIFF =1.0E-6
+EDIFFG =-0.01
+PREC =high
+ISYM =0
+ISMEAR =0
+SIGMA =0.1
+NCORE =12
+LCALCPOL =.FALSE.
+LBERRY =.FALSE.
+EMIN = -20
+EMAX = 20
+NEDOS = 3000
+LORBIT = 11
+
+METAGGA  = R2SCAN
+LUSE_VDW = .TRUE.
+BPARAM   = 11.95   # the default value is 6.3
+CPARAM   = 0.0093  # default but can be overwritten by this tag
+LASPH    = .TRUE.
+
+
